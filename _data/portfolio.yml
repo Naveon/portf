@@ -44,3 +44,18 @@ projects:
 - {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
 - {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
 
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'facebook', link: 'http://twitter.com/devtipsshow'}
+- {icon: 'google-plus', link: 'https://dribbble.com/travisneilson'}
+- {icon: 'twitter', link: 'https://www.behance.net/travisneilson'}
+- {icon: 'github', link: 'https://www.youtube.com/DevTipsForDesigners'}
+- {icon: 'instagram', link: 'https://www.behance.net/travisneilson'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+- {icon: 'pinterest', link: 'https://www.behance.net/travisneilson'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+

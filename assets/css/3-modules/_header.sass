@@ -2,13 +2,15 @@ header
   height: 450px
   background: url(../../../19A.jpg) center center
   background-size: cover
+  padding-bottom: 50px
+
   .logo
-    +size(50px)
+    +size(80px)
     float: left
-    margin: 10px 0 0 30px
+    padding: 10px 0 0 30px
 
     path
-      fill: rgba(81, 85, 137, 0.56)
+      fill: rgba(106, 111, 185, 0.6)
 
   nav
     float: right
@@ -16,19 +18,23 @@ header
     a
       display: inline-block
       margin-left: 20px
+      +transition()
 
-      color: rgba(120, 120, 120, 0.81)
+      color: rgba(149, 149, 149, 0.7)
       @extend %small-bold
 
       &:hover
-        color: rgba(0,0,0,1)
+        color: rgb(177, 177, 177)
+        +transform(scale(1.2))
+        opacity: 0.7
+
 
   h1
     text-align: center
     font:
       size: 72px
       weight: 700
-    color: rgba(63, 34, 177, 0.79)
+    color: rgba(143, 143, 143, 0.79)
     text-transform: uppercase
     letter-spacing: 0.05em
     margin-bottom: 20px
@@ -38,7 +44,7 @@ header
     span
       display: inline-block
       padding: 0.2em 0.5em
-      border: #40976c dotted 10px
+      border: #8f8f8f dashed 10px
 
 
   .kicker
@@ -50,4 +56,27 @@ header
     color: white
     text-transform: uppercase
     letter-spacing: 0.5em
+
+
+@media (max-width: 640px)
+  header
+
+    .logo
+      float: none
+      background: none
+
+
+
+    nav
+      float: none
+      text-align: center
+      padding-top: 30px
+
+    h1
+      padding-top: 0px
+
+
+
+
+
 

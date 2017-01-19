@@ -1,0 +1,49 @@
+.section-contact
+  text-align: center
+  background-color: $bgcolor
+
+
+.social-links
+  max-width: 700px
+  margin: 0px auto 50px
+  +display(flex)
+  +justify-content(space-around)
+  +flex-wrap(wrap)
+
+  a
+    display: block
+    background: $accent
+    +size(50px)
+    line-height: 50px
+    color: white
+    border-radius: 50%
+    font-size: 28px
+    margin: 20px
+    position: relative
+    +transition()
+
+    &:hover
+      +transform(scale(1.5))
+      opacity: 0.7
+
+.bar
+  width: 250px
+  height: 0px
+  border-top: 6px solid
+  border-radius: 50%
+  border-color: $accent
+  margin: 0 auto
+
+.biglink
+  display: inline-block
+  font:
+    size: 70px
+    weight: 300
+  color: $accent
+  line-height: 1
+  width: 90%
+  margin: 50px auto 100px
+
+  @media screen and (max-width: 740px)
+    display: block
+    text-align: center
